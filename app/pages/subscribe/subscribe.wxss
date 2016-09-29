@@ -1,0 +1,105 @@
+.p {
+  display: block; }
+
+text {
+  display: block; }
+
+page {
+  text-align: center; }
+
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background: url(/images/subscribe/home/banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+
+#logo {
+  order: 0;
+  flex-basis: 3.5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cec4b7;
+  padding-top: .65rem;
+  text-align: center;
+  color: #fff; }
+  #logo .logo {
+    width: 189rpx;
+    height: 86rpx; }
+
+#banner {
+  order: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.217; }
+  #banner .content {
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center; }
+    #banner .content .icon .img {
+      width: 6.23rem;
+      height: 0.98rem; }
+    #banner .content .desc {
+      font-size: 1.4rem;
+      line-height: 1.214; }
+  #banner .other {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+  #banner .subscribe {
+    border: 1px solid #fff;
+    border-radius: 10rpx;
+    width: 6em;
+    font-size: 1.26rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0 auto; }
+  #banner .next {
+    left: 50%;
+    border: none;
+    width: 1.68rem;
+    height: 1.26rem; }
+
+.item {
+  text-align: center; }
+  .item .text {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem; }
+  .item .title-group {
+    color: #141414; }
+    .item .title-group .number {
+      font-family: "Aldine721BT";
+      font-size: 1.2rem;
+      line-height: 1.417; }
+    .item .title-group .title {
+      font-family: "PingFang", "Microsoft Yahei";
+      font-size: 1.7rem;
+      font-weight: bold;
+      line-height: 2.5rem; }
+    .item .title-group .line {
+      margin: 0 auto;
+      width: 3.5rem;
+      height: 2px;
+      background-color: #141414; }
+    .item .title-group .sub-title {
+      line-height: 1.7rem;
+      font-family: "Aldine721BT";
+      font-size: 1.3rem; }
+  .item .desc p {
+    font-size: 1.1rem;
+    line-height: 1.545;
+    text-align: center;
+    color: #272727; }
+  .item .image img {
+    width: 100%; }
