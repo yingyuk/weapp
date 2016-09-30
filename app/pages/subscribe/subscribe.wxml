@@ -1,1 +1,3 @@
+<import src="/pages/template/headlogo.wxml"/>
+<template is="headlogo"/>
 <view>订阅</view>

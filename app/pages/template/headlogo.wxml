@@ -1,0 +1,5 @@
+<template name="headlogo">
+  <view id="logo">
+    <image class="logo" src="/images/include/head_white.png" alt=""></image>
+  </view>
+</template>

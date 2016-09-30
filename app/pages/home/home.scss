@@ -10,7 +10,6 @@ page {
   text-align: center;
 }
 
-$headerHeight: 3.5rem;
 #header {
   width: 100%;
   display: flex;
@@ -24,7 +23,7 @@ $headerHeight: 3.5rem;
 
 #logo {
   order: 0;
-  flex-basis: $headerHeight;
+  flex-basis: 3.5rem;
   border-bottom: 1px solid #cec4b7;
   color: #fff;
   display: flex;
